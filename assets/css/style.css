@@ -1,0 +1,76 @@
+.headline {
+  background: #1c1a19 url("../images/desktop_ver/Group.png") no-repeat right top;
+  height: 80vh;
+  background-size: contain;
+}
+
+.welcome h1 {
+  font-family: 'Crete Round', 'cursive', 'Times New Roman', Times, serif;
+  color: #ff6b00;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 82px;
+}
+
+.welcome h2 {
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  color: #fff5e1;
+  margin-bottom: 0.5rem;
+}
+
+.welcome p {
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  color: #fff;
+  width: 40%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.heading {
+  margin-top: 1.4rem;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex;
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 72%;
+  height: 0.01rem;
+  background: #212121;
+  z-index: -1;
+}
+
+.heading span {
+  font-family: 'Crete Round', 'cursive', Times, serif;
+  background-color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.bg-warning,
+.btn-warning {
+  background-color: #f55800 !important;
+}
+
+.about-me {
+  height: 90vh;
+  background: #262626 url("../images/desktop_ver/illustration-about\ me@2x.png") no-repeat right center;
+  background-size: 50% 60%;
+}
