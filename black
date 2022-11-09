@@ -1,0 +1,40 @@
+// how to make a navbar in bootstrap?
+&lt;nav class="navbar navbar-default" role="navigation"&gt;
+    &lt;div class="navbar-header"&gt;
+        &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;/button&gt;    
+    &lt;/div&gt;
+    &lt;a class="navbar-brand navbar-center" href="#"&gt;
+        &lt;img src="http://placehold.it/100x40" alt="Logo Here"&gt;
+    &lt;/a&gt;
+    &lt;div class="navbar-collapse collapse"&gt;
+        &lt;ul class="nav navbar-nav navbar-left"&gt;
+            &lt;li&gt;&lt;a href="#itemonelink"&gt;Item One&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#itemtwolink"&gt;Item Two&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class="nav navbar-nav navbar-right"&gt;
+            &lt;li&gt;&lt;a href="#signuplink"&gt;Signup&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#loginlink"&gt;Login&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+
+.navbar-brand {
+    float: none;
+    padding: 5px;
+}
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
+
