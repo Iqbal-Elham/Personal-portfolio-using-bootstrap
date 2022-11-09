@@ -1,56 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal_portfolio
 
-> Description the project.
+> This is my personal portfolio mobile and desktop version
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
+- font-awesome
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[iqba-elham](https://iqbal-elham.github.io/personal_portfolio/)
 
+## Get Started
 
-## Getting Started
+ To get the content of this project locally you need to run the following commands in your terminal:
+ 
+### Prerequisites 
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
 
+### Setup 
 
-To get a local copy up and running follow these simple example steps.
+1. Download the **Zip** file or clone the repo with:
+```bash git clone https://github.com/Iqbal-Elham/personal_portfolio.git ``` 
+2. To access cloned directory run: 
+```bash cd Hello_micorverse ``` 
+3. Open it with the live server 
 
-### Prerequisites
+### Install 
 
-### Setup
+> To install linters and other project's dependencies run:
+```bash npm install ``` 
 
-### Install
+## Run
 
-### Usage
-
-### Run tests
-
-### Deployment
-
+Test for Linters For tracking linter errors locally you need to follow these steps: 
+1. For tracking linter errors in HTML files run:
+```bash npx hint . ``` 
+2. For tracking linter errors in CSS or SASS files run:
+```bash npx stylelint "**/*.{css,scss}" ``` 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Iqbal Elham**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@iqbal-elham](https://github.com/Iqbal-Elham)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
